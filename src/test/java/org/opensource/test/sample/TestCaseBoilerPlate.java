@@ -1,4 +1,4 @@
-package org.example.test.sample;
+package org.opensource.test.sample;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
