@@ -1,4 +1,4 @@
-package org.opensource.test.pageObjectModel.vwo;
+package org.opensource.tests.pageObjectModel.vwo;
 import org.opensource.pages.pageObjectModel.vwo.normal_POM.DashBoardPage;
 import org.opensource.pages.pageObjectModel.vwo.normal_POM.LoginPage;
 import io.qameta.allure.Description;

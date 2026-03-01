@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--    <test verbose="2" preserve-order="true" parallel="methods" thread-count="2" name="VWOLogInAutomationSelenium">-->
+    <listeners>
+        <listener class-name="org.opensource.listeners.RetryListener"></listener>
+        <listener class-name="org.opensource.listeners.ScreenshotListener"></listener>
+
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/DELL/IdeaProjects/VWOLogInAutomationSelenium">
+        <classes>
+            <class name="org.opensource.tests.pageObjectModel.vwo.TestVWOLogin_03_Retry">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
